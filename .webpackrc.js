@@ -1,7 +1,7 @@
 const path = require('path');
 
 export default {
-  entry: 'src/index.js',
+  entry: 'src/app/index.js',
   extraBabelPlugins: [
     ['import', { libraryName: 'antd', libraryDirectory: 'es', style: true }],
   ],
@@ -11,12 +11,12 @@ export default {
     },
   },
   alias: {
-    components: path.resolve(__dirname, 'src/components/'),
+    components: path.resolve(__dirname, 'src/app/components/'),
   },
   ignoreMomentLocale: true,
-  theme: './src/theme.js',
+  theme: './src/app/theme.js',
   html: {
-    template: './src/index.ejs',
+    template: './src/app/index.ejs',
   },
   disableDynamicImport: true,
   publicPath: '/',
