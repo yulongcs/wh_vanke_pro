@@ -31,6 +31,7 @@ module.exports = {
         prop: 'ignore',
       },
     ],
+    'linebreak-style': [0, "error", "windows"],
     'no-else-return': [0],
     'no-restricted-syntax': [0],
     'import/no-extraneous-dependencies': [0],
