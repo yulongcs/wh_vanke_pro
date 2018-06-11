@@ -6,7 +6,7 @@ module.exports = {
       'module-resolver',
       {
         alias: {
-          components: path.join(__dirname, './src/components'),
+          components: path.join(__dirname, './src/app/components'),
         },
       },
     ],
